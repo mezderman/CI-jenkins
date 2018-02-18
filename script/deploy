@@ -1,6 +1,6 @@
 
 ssh ezderman@159.65.42.40 <<EOF
-  cd ~/hello-jenkins
+  cd ~/CI-jenkins
   git pull
   npm install --production
   pm2 restart all
